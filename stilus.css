@@ -3,10 +3,7 @@ body{
     margin: 0;
     color: var(--text-color);
 }
-*{
-    box-sizing:border-box;
-    /*az elem mérete= width+padding+border*/
-}
+
 img{
     width: 100%;
     
