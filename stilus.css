@@ -10,6 +10,9 @@ img{
     width: 500px;
     height: 600px;
 }
+.piros{
+    background-color: red;
+}
 
 @media screen and (max-width:600px){
     
