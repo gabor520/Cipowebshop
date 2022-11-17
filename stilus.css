@@ -6,8 +6,10 @@ body{
     box-sizing:border-box;
     /*az elem mérete= width+padding+border*/
 }
-
-
+img{
+    width: 600px;
+    height: 600px;
+}
 
 @media screen and (max-width:600px){
     
