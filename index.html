@@ -8,140 +8,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stilus.css">
     <title>Piniel Gábor</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <main>
-        <header><h1>Webáruház</h1></header>
-        <nav>menü</nav>
-        <article>
-          <div>
-            <h3>Jordan4 Red Thunder</h3>
-            <div><img src="kepek/jordan4redthunder.jpg" alt="Jordan4 Red Thunder"></div>
-            <p>Product Details
-              Style
-              
-              CT8527-016
-              Colorway
-              
-              Black/Multi-Color-Multi-Color-Crimson
-              Retail Price
-              
-              $190
-              Release Date
-              
-              01/15/2022</p>
-            <button>Kosárba</button><span>160.000ft</span></div>
-          <div>
-            <h3>Jordan4 Thunder</h3>
-            <div><img src="kepek/jordan4thunder.jpg" alt="Jordan4 Thunder"></div>
-            <p>Product Details
-              Style
-              
-              308497-008
-              Colorway
-              
-              Black/Tour Yellow
-              Retail Price
-              
-              $160
-              Release Date
-              
-              12/22/2012</p>
-            <button>Kosárba</button><span>600.000ft</span></div>
-          <div>
-            <h3>Jordan4 Black Cat</h3>
-            <div><img src="kepek/jordan4blackcat.jpg"alt="Jordan4 Black Cat"></div>
-            <p>Product Details
-              Style
-              
-              CU1110-010
-              Colorway
-              
-              Black/Black-Light Graphite
-              Retail Price
-              
-              $190
-              Release Date
-              
-              01/22/2020</p>
-            <button>Kosárba</button><span>400.000ft</span></div>
-          <div>
-            <h3>Jordan4 Fire Red</h3>
-            <div><img src="kepek/jordan4firered.jpg" alt="Jordan4 Fire Red"></div>
-            <p>Product Details
-              Style
-              
-              DC7770-160
-              Colorway
-              
-              White/Black-Tech Grey-Fire Red
-              Retail Price
-              
-              $200
-              Release Date
-              
-              11/28/2020</p>
-            <button>Kosárba</button><span>220.000ft</span></div>
-          <div>
-            <h3>Air Jordan 4 University Blue</h3>
-            <div><img src="kepek/jordan4unc.jpg" alt="Jordan 4 University Blue"></div>
-            <p>Product Details
-              Style
-              
-              CT8527-400
-              Colorway
-              
-              University Blue/Tech Grey-White-Black
-              Retail Price
-              
-              $200
-              Release Date
-              
-              04/28/2021</p>
-            <button>Kosárba</button><span>240.000ft</span></div>
-          <div>
-            <h3>Air Jordan 4 White Oreo</h3>
-            <div><img src="kepek/jordan4oreo.jpg" alt="Jordan 4 White Oreo"></div>
-            <p>Product Details
-              Style
-              
-              CT8527-100
-              Colorway
-              
-              White/Tech Grey-Black-Fire Red
-              Retail Price
-              
-              $190
-              Release Date
-              
-              07/03/2021</p>
-            <button>Kosárba</button><span>250.000ft</span></div>
-          <div>
-            <h3>Jordan4 InfraRed</h3>
-            <div><img src="kepek/jordan4infrared.jpg" alt="Jordan 4 InfraRed"></div>
-            <p>Product Details
-              Style
-              
-              DH6927-061
-              Colorway
-              
-              Dark Grey/Infrared 23-Black-Cement Grey
-              Retail Price
-              
-              $200
-              Release Date
-              
-              06/15/2022</p>
-            <button>Kosárba</button><span>160.000ft</span></div>
+        <header>
+        <div class="nav container">
+          <a href="#" class="logo">Ecommerce</a>
+          <!--Cart-Icon-->
+          <i class='bx bx-shopping-bag' id="cart-icon"></i>
+          <!--Cart-->
+          <div class="cart">
+            <h2 class="car-title">Your Cart</h2>
 
+          </div>
+      
 
-        </article>
-        <aside></aside>
-        <footer>Piniel Gábor</footer>
+        </div>
+      </header>
+      <!--Shop-->
+      <section class="shop container">
+        <h2 class="section title">Shop Products</h2>
+        <div class="shop-content"></div>
+          <!--Box 1-->
+          <div class="products-box">
+            <img src="kepek/jordan4redthunder.jpg" alt="Jordan4 Red Thunder" class="product-img">
+            <h2 class="product-title">Jordan4 Red Thunder</h2>
+            <span class="price">160.000ft</span>
+            <i class='bx bx-shopping-bag' add-cart></i>
+          </div>
+        <!--Box 2-->
+        <div class="products-box">
+          <img src="kepek/jordan4thunder.jpg" alt="Jordan4 Thunder" class="product-img">
+          <h2 class="product-title">Jordan4 Thunder</h2>
+          <span class="price">600.000ft</span>
+          <i class='bx bx-shopping-bag' add-cart></i>
+        </div>
+        <!--Box 3-->
+        <div class="products-box">
+          <img src="kepek/jordan4blackcat.jpg" alt="Jordan4 Black Cat" class="product-img">
+          <h2 class="product-title">Jordan4 Black Cat</h2>
+          <span class="price">400.000ft</span>
+          <i class='bx bx-shopping-bag' add-cart></i>
+        </div>
+        <!--Box 4-->
+        <div class="products-box">
+          <img src="kepek/jordan4firered.jpg" alt="Jordan4 Fire Red" class="product-img">
+          <h2 class="product-title">Jordan4 Fire Red</h2>
+          <span class="price">220.000ft</span>
+          <i class='bx bx-shopping-bag' add-cart></i>
+        </div>
+        <!--Box 5-->
+        <div class="products-box">
+          <img src="kepek/jordan4oreo.jpg" alt="Air Jordan 4 White Oreo" class="product-img">
+          <h2 class="product-title">Air Jordan 4 White Oreo</h2>
+          <span class="price">250.000ft</span>
+          <i class='bx bx-shopping-bag' add-cart></i>
+        </div>
+        <!--Box 6-->
+        <div class="products-box">
+          <img src="kepek/jordan4unc.jpg" alt="Air Jordan 4 University Blue" class="product-img">
+          <h2 class="product-title">Air Jordan 4 University Blue</h2>
+          <span class="price">240.000ft</span>
+          <i class='bx bx-shopping-bag' add-cart></i>
+        </div>
+        <!--Box 8-->
+        <div class="products-box">
+          <img src="kepek/jordan4infrared.jpg" alt="Jordan4 InfraRed" class="product-img">
+          <h2 class="product-title">Jordan4 InfraRed</h2>
+          <span class="price">160.000ft</span>
+          <i class='bx bx-shopping-bag' add-cart></i>
+        </div>
         
-
-
-    </main>
-    
+ </section>
+        <footer>Piniel Gábor</footer>    
 </body>
 </html>
