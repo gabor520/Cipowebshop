@@ -7,12 +7,58 @@ body{
     /*az elem mérete= width+padding+border*/
 }
 img{
-    width: 500px;
-    height: 600px;
+   overflow: hidden;
+    height: 200px;
 }
-.piros{
-    background-color: red;
+span{
+    border: 1px solid gray;
+    padding: 1px;
+    float: right;
 }
+div{
+    border: 1px solid gray;
+    padding: 12px;
+    background-color: aliceblue;
+    
+}
+h3{
+    border: 1px solid gray;
+    padding: 1px;
+}
+article{
+    background-color: aqua;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    display: grid;
+    grid-area:ar;
+    
+}
+aside{
+    border: 1px solid gray;
+    padding: 12px;
+    grid-area: as;
+}
+header{
+    grid-area: h;
+
+}
+nav{
+    grid-area: n;
+}
+footer{
+    grid-area: f;
+}
+
+
+main{
+    display: grid ;
+    grid-template-columns:3fr 1fr;
+    grid-template-areas:"h    h"
+                        "n    n"
+                        "ar   as"
+                        "f    f"   
+}
+
+
 
 @media screen and (max-width:600px){
     
