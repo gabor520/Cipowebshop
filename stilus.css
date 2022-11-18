@@ -121,4 +121,9 @@ section{
 .add-cart:hover{
     background: hsl(249,32%,17%);
 }
+@media only screen and(max-width: 700px){
+
+}
+    
+
 
